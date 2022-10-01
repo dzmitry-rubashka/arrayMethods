@@ -1,0 +1,75 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.mockArray {
+  font-size: 32px;
+  background-color: #376c81;
+  flex-wrap: wrap;
+  width: 20%;
+  padding: 10px;
+  border: 2px solid #0b2533;
+  border-radius: 10px;
+  margin: 0 20px;
+}
+
+.result {
+  font-size: 32px;
+  text-align: center;
+  background-color: #376c81;
+  flex-wrap: wrap;
+  width: 20%;
+  padding: 10px;
+  border: 2px solid #0b2533;
+  border-radius: 10px;
+  margin: 0 auto;
+}
+
+.number {
+  margin: 10px;
+  background-color: rgb(131, 87, 87);
+  border: 2px solid;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+
+.form {
+  background-color: inherit;
+}
+
+.input {
+  display: block;
+  margin: 0 auto;
+  background-color: rgb(99, 104, 124);
+  border: 2px solid rgb(29, 38, 63);
+  border-radius: 5px;
+  padding: 5px 10px;
+  outline: none;
+  font-size: 24px;
+  width: 75%;
+}
+
+.delete {
+  background-color: #723256;
+  color: black;
+  font-size: 20px;
+  width: 70%;
+  margin: 0 auto;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+.button {
+  display: block;
+  margin: 5px auto;
+  font-size: 32px;
+  background-color: rgb(99, 104, 124);
+  border: 2px solid rgb(29, 38, 63);
+  border-radius: 5px;
+}
